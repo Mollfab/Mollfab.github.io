@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e7e4e1;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header.hero {
+    text-align: center;
+    padding: 2em;
+}
+.profile-img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+section {
+    margin: 2em;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+.gallery a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+.gallery img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
